@@ -1,5 +1,7 @@
+import ReactDOM from 'react-dom';
 import logo from './logo.svg';
 import './App.css';
+import Button from './Button'
 
 function App() {
   return (
@@ -9,6 +11,7 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
+        <Button/>
         <a
           className="App-link"
           href="https://reactjs.org"
@@ -21,5 +24,10 @@ function App() {
     </div>
   );
 }
+
+ReactDOM.render(
+  <h1>Hello, world!</h1>,
+  document.getElementById('test')
+);
 
 export default App;
