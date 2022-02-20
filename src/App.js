@@ -1,8 +1,8 @@
 import ReactDOM from 'react-dom';
-// import logo from './logo.svg';
 import profil from './assets/honest.jpg';
 import './App.css';
-import Button from './Button'
+import IdCard from './IdCard';
+
 
 // function App() {
 //   return (
@@ -28,10 +28,9 @@ import Button from './Button'
 
 function Hero() {
   return (
-    <div className="App">
       <header className="App-header">
         <img src={profil} className="profil" alt="honest worker looking for an honest work" />
-        <Button/>
+        <IdCard/>
         <a
           className="App-link"
           href="https://reactjs.org"
@@ -40,8 +39,7 @@ function Hero() {
         >      
         </a>
       </header>
-    </div>
-  );
+   );
 }
 
 export default Hero;

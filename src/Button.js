@@ -1,10 +1,6 @@
 function Button() {
     return (
-        <div>
-            <button className="btn">Curious ?</button>
-        </div>
+        <button className="btn">Curious ?</button>
     );
-  }
-
-
+}
 export default Button;
