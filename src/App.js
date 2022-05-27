@@ -1,17 +1,16 @@
 import ReactDOM from 'react-dom';
-import logo from './logo.svg';
 import './App.css';
-import Button from './Button'
+import Greeting from './Greeting';
+import Tick from './Tick.js';
+import GreetingForm from './GreetingForm'
 
 function App() {
+ 
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <Button/>
+        <GreetingForm/>
+        <Greeting/>
         <a
           className="App-link"
           href="https://reactjs.org"
@@ -24,10 +23,4 @@ function App() {
     </div>
   );
 }
-
-ReactDOM.render(
-  <h1>Hello, world!</h1>,
-  document.getElementById('test')
-);
-
 export default App;
