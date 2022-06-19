@@ -33,15 +33,14 @@ function Hero() {
       <header className="App-header">
         <GreetingForm/>
         <Greeting/>
-        <img src={profil} className="profil" alt="honest worker looking for an honest work" />
-        <IdCard/>
+        {/* <IdCard/>
         <a
           className="App-link"
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
         >      
-        </a>
+        </a> */}
       </header>
    );
 }
